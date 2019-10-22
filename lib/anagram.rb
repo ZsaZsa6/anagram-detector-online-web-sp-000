@@ -13,7 +13,7 @@ class Anagram
       binding.pry
       return []
     else
-      return string_array.join
+      return string_array.join("")
     end
   end
 end
