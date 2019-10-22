@@ -11,6 +11,8 @@ class Anagram
     string_array = array.join("").chars.sort
     if string_array == word.split("").sort
       binding.pry
+      return []
+    else
       return string_array
     end
   end
