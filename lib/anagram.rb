@@ -9,8 +9,8 @@ class Anagram
 
   def match(array)
     string_array = array.join("").chars
+    binding.pry
     if string_array == word.split("").sort
-      binding.pry
       return
     else
       return string_array.join("")
