@@ -6,3 +6,4 @@ class Anagram
 
   def method
     %w(enlists google inlets banana)
+  end
