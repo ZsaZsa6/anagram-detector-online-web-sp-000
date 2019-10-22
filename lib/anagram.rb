@@ -7,7 +7,7 @@ class Anagram
     @word = word
   end
   def match(array)
-    array.each.split(" ")
+    word.split(" ")
     binding.pry
   end
 end
