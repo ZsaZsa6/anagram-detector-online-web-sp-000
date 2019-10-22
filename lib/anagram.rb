@@ -5,7 +5,7 @@ class Anagram
   def initialize(word)
     @word = word
   end
-  def match
-    %w(enlists google inlets banana)
+  def match(array)
+    
   end
 end
