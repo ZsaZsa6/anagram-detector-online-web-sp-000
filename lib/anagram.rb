@@ -13,7 +13,7 @@ class Anagram
     if string_array == word.split("").sort
       return
     else
-      return 
+      return
     end
   end
 end
