@@ -9,7 +9,7 @@ class Anagram
 
   def match(array)
     # binding.pry
-    array.select == word.split("").sort
+    array.select(array == word.split("").sort)
     return 
   end
 end
