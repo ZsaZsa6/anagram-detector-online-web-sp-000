@@ -7,7 +7,7 @@ class Anagram
     @word = word
   end
   def match(array)
-    word.split("") 
+    array.join("").chars == word.split("") 
 
   end
 end
