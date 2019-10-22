@@ -8,7 +8,7 @@ class Anagram
   end
 
   def match(array)
-    # binding.pry
+     binding.pry
     array.select{ |string| string == word.split("").sort}
 
   end
