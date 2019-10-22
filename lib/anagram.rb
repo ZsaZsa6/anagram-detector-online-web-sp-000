@@ -10,10 +10,8 @@ class Anagram
   def match(array)
     string_array = array.join("").chars
     # binding.pry
-    if string_array == word.split("").sort
-      return
-    else
-      return
+    string_array == word.split("").sort
+
     end
   end
 end
