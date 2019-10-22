@@ -8,8 +8,8 @@ class Anagram
   end
 
   def match(array)
-    array.each{|string| string} == word.split("").sort
-    return string
+    array.map == word.split("").sort
+    return array
     # binding.pry
     # if string_array == word.split("").sort
     #   return
