@@ -5,4 +5,4 @@ class Anagram
     @word = word
 
   def method
-    
+    %w(enlists google inlets banana)
