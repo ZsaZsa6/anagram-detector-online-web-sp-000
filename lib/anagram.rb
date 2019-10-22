@@ -8,9 +8,7 @@ class Anagram
   end
 
   def match(array)
-    string_array = array.join("").chars
-    # binding.pry
-    string_array == word.split("").sort
+    array.each.sort == word.split("").sort
 
     end
   end
