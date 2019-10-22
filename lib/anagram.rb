@@ -11,5 +11,6 @@ class Anagram
     if string_array == word.split("").sort
 
       return string_array
+    end
   end
 end
